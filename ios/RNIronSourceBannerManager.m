@@ -17,6 +17,7 @@ RCT_EXPORT_MODULE()
     return [[RNIronSourceBanner alloc] init];
 }
 
+
 RCT_EXPORT_VIEW_PROPERTY(size, NSString);
 RCT_EXPORT_VIEW_PROPERTY(onBannerEvent, RCTBubblingEventBlock);
 

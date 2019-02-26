@@ -7,7 +7,7 @@ const RNIronSourceBannerNative = requireNativeComponent('RNIronSourceBanner', nu
 export default class RNIronSourceBannerComponent extends React.Component {
 
   static propTypes = {
-    size: PropTypes.oneOf('BANNER', 'LARGE', 'RECTANGLE', 'SMART'),
+    size: PropTypes.oneOf(['BANNER', 'LARGE', 'RECTANGLE', 'SMART']),
     onLoad: PropTypes.func,
     onError: PropTypes.func,
     onDismissScreen: PropTypes.func,
@@ -26,6 +26,10 @@ export default class RNIronSourceBannerComponent extends React.Component {
       this.props[nativeEvent.type](nativeEvent.payload || {});
     }
   };
+
+  // componentWillUnmount() {
+    // RNIronSourceBannerNative.destroyBanner();
+  // }
 
   render() {
     return (
