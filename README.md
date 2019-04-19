@@ -16,11 +16,9 @@ The fork includes following improvements:
 
 ## Getting started
 
-It is recommended to use version tags. Example:
-
 `npm install @wowmaking/react-native-iron-source --save`
 
-You can find available version tags [here](https://github.com/wowmaking/react-native-iron-source/releases).
+You can find available versions [here](https://github.com/wowmaking/react-native-iron-source/releases).
 
 ### Mostly automatic installation
 
